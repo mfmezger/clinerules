@@ -21,3 +21,6 @@ I use an extensive pre-commit configuration for that.
 pre-commit run --all-files is the command for making sure everything is correct.
 
 
+## Formatting
+Please do not create tabs in empty lines.
+
