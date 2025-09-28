@@ -23,4 +23,21 @@ pre-commit run --all-files is the command for making sure everything is correct.
 
 ## Formatting
 Please do not create tabs in empty lines.
+Please use "" instead of ''.
+
+
+
+
+## Printing/Logging
+Please do not use print statement.
+Instead use loguru to log like this:
+
+
+```python
+from loguru import logger
+logger.info("log something.")
+
+```
+
+
 
